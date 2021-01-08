@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		553CE70825A87D4B0034D40E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CE70725A87D4B0034D40E /* AppDelegate.swift */; };
+		553CE70A25A87D4B0034D40E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CE70925A87D4B0034D40E /* SceneDelegate.swift */; };
+		553CE70C25A87D4B0034D40E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CE70B25A87D4B0034D40E /* ViewController.swift */; };
+		553CE70F25A87D4B0034D40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553CE70D25A87D4B0034D40E /* Main.storyboard */; };
+		553CE71125A87D510034D40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553CE71025A87D510034D40E /* Assets.xcassets */; };
+		553CE71425A87D510034D40E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553CE71225A87D510034D40E /* LaunchScreen.storyboard */; };
+		553CE71F25A87D510034D40E /* iPadxTG_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CE71E25A87D510034D40E /* iPadxTG_testTests.swift */; };
+		553CE72A25A87D510034D40E /* iPadxTG_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CE72925A87D510034D40E /* iPadxTG_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		553CE71B25A87D510034D40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 553CE6FC25A87D4B0034D40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 553CE70325A87D4B0034D40E;
+			remoteInfo = "iPadxTG-test";
+		};
+		553CE72625A87D510034D40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 553CE6FC25A87D4B0034D40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 553CE70325A87D4B0034D40E;
+			remoteInfo = "iPadxTG-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		553CE70425A87D4B0034D40E /* iPadxTG-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPadxTG-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		553CE70725A87D4B0034D40E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		553CE70925A87D4B0034D40E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		553CE70B25A87D4B0034D40E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		553CE70E25A87D4B0034D40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		553CE71025A87D510034D40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		553CE71325A87D510034D40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		553CE71525A87D510034D40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553CE71A25A87D510034D40E /* iPadxTG-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPadxTG-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		553CE71E25A87D510034D40E /* iPadxTG_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadxTG_testTests.swift; sourceTree = "<group>"; };
+		553CE72025A87D510034D40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553CE72525A87D510034D40E /* iPadxTG-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPadxTG-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		553CE72925A87D510034D40E /* iPadxTG_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadxTG_testUITests.swift; sourceTree = "<group>"; };
+		553CE72B25A87D510034D40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		553CE70125A87D4B0034D40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553CE71725A87D510034D40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553CE72225A87D510034D40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		553CE6FB25A87D4B0034D40E = {
+			isa = PBXGroup;
+			children = (
+				553CE70625A87D4B0034D40E /* iPadxTG-test */,
+				553CE71D25A87D510034D40E /* iPadxTG-testTests */,
+				553CE72825A87D510034D40E /* iPadxTG-testUITests */,
+				553CE70525A87D4B0034D40E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		553CE70525A87D4B0034D40E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				553CE70425A87D4B0034D40E /* iPadxTG-test.app */,
+				553CE71A25A87D510034D40E /* iPadxTG-testTests.xctest */,
+				553CE72525A87D510034D40E /* iPadxTG-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		553CE70625A87D4B0034D40E /* iPadxTG-test */ = {
+			isa = PBXGroup;
+			children = (
+				553CE70725A87D4B0034D40E /* AppDelegate.swift */,
+				553CE70925A87D4B0034D40E /* SceneDelegate.swift */,
+				553CE70B25A87D4B0034D40E /* ViewController.swift */,
+				553CE70D25A87D4B0034D40E /* Main.storyboard */,
+				553CE71025A87D510034D40E /* Assets.xcassets */,
+				553CE71225A87D510034D40E /* LaunchScreen.storyboard */,
+				553CE71525A87D510034D40E /* Info.plist */,
+			);
+			path = "iPadxTG-test";
+			sourceTree = "<group>";
+		};
+		553CE71D25A87D510034D40E /* iPadxTG-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				553CE71E25A87D510034D40E /* iPadxTG_testTests.swift */,
+				553CE72025A87D510034D40E /* Info.plist */,
+			);
+			path = "iPadxTG-testTests";
+			sourceTree = "<group>";
+		};
+		553CE72825A87D510034D40E /* iPadxTG-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				553CE72925A87D510034D40E /* iPadxTG_testUITests.swift */,
+				553CE72B25A87D510034D40E /* Info.plist */,
+			);
+			path = "iPadxTG-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		553CE70325A87D4B0034D40E /* iPadxTG-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553CE72E25A87D510034D40E /* Build configuration list for PBXNativeTarget "iPadxTG-test" */;
+			buildPhases = (
+				553CE70025A87D4B0034D40E /* Sources */,
+				553CE70125A87D4B0034D40E /* Frameworks */,
+				553CE70225A87D4B0034D40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPadxTG-test";
+			productName = "iPadxTG-test";
+			productReference = 553CE70425A87D4B0034D40E /* iPadxTG-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		553CE71925A87D510034D40E /* iPadxTG-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553CE73125A87D510034D40E /* Build configuration list for PBXNativeTarget "iPadxTG-testTests" */;
+			buildPhases = (
+				553CE71625A87D510034D40E /* Sources */,
+				553CE71725A87D510034D40E /* Frameworks */,
+				553CE71825A87D510034D40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				553CE71C25A87D510034D40E /* PBXTargetDependency */,
+			);
+			name = "iPadxTG-testTests";
+			productName = "iPadxTG-testTests";
+			productReference = 553CE71A25A87D510034D40E /* iPadxTG-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		553CE72425A87D510034D40E /* iPadxTG-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553CE73425A87D510034D40E /* Build configuration list for PBXNativeTarget "iPadxTG-testUITests" */;
+			buildPhases = (
+				553CE72125A87D510034D40E /* Sources */,
+				553CE72225A87D510034D40E /* Frameworks */,
+				553CE72325A87D510034D40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				553CE72725A87D510034D40E /* PBXTargetDependency */,
+			);
+			name = "iPadxTG-testUITests";
+			productName = "iPadxTG-testUITests";
+			productReference = 553CE72525A87D510034D40E /* iPadxTG-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		553CE6FC25A87D4B0034D40E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					553CE70325A87D4B0034D40E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					553CE71925A87D510034D40E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 553CE70325A87D4B0034D40E;
+					};
+					553CE72425A87D510034D40E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 553CE70325A87D4B0034D40E;
+					};
+				};
+			};
+			buildConfigurationList = 553CE6FF25A87D4B0034D40E /* Build configuration list for PBXProject "iPadxTG-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 553CE6FB25A87D4B0034D40E;
+			productRefGroup = 553CE70525A87D4B0034D40E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				553CE70325A87D4B0034D40E /* iPadxTG-test */,
+				553CE71925A87D510034D40E /* iPadxTG-testTests */,
+				553CE72425A87D510034D40E /* iPadxTG-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		553CE70225A87D4B0034D40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553CE71425A87D510034D40E /* LaunchScreen.storyboard in Resources */,
+				553CE71125A87D510034D40E /* Assets.xcassets in Resources */,
+				553CE70F25A87D4B0034D40E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553CE71825A87D510034D40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553CE72325A87D510034D40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		553CE70025A87D4B0034D40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553CE70C25A87D4B0034D40E /* ViewController.swift in Sources */,
+				553CE70825A87D4B0034D40E /* AppDelegate.swift in Sources */,
+				553CE70A25A87D4B0034D40E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553CE71625A87D510034D40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553CE71F25A87D510034D40E /* iPadxTG_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553CE72125A87D510034D40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553CE72A25A87D510034D40E /* iPadxTG_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		553CE71C25A87D510034D40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 553CE70325A87D4B0034D40E /* iPadxTG-test */;
+			targetProxy = 553CE71B25A87D510034D40E /* PBXContainerItemProxy */;
+		};
+		553CE72725A87D510034D40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 553CE70325A87D4B0034D40E /* iPadxTG-test */;
+			targetProxy = 553CE72625A87D510034D40E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		553CE70D25A87D4B0034D40E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553CE70E25A87D4B0034D40E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		553CE71225A87D510034D40E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553CE71325A87D510034D40E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		553CE72C25A87D510034D40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		553CE72D25A87D510034D40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		553CE72F25A87D510034D40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		553CE73025A87D510034D40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		553CE73225A87D510034D40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPadxTG-test.app/iPadxTG-test";
+			};
+			name = Debug;
+		};
+		553CE73325A87D510034D40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPadxTG-test.app/iPadxTG-test";
+			};
+			name = Release;
+		};
+		553CE73525A87D510034D40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iPadxTG-test";
+			};
+			name = Debug;
+		};
+		553CE73625A87D510034D40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N6RQMF42Q;
+				INFOPLIST_FILE = "iPadxTG-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nit.tetsushi.miwa.iPadxTG-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iPadxTG-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		553CE6FF25A87D4B0034D40E /* Build configuration list for PBXProject "iPadxTG-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553CE72C25A87D510034D40E /* Debug */,
+				553CE72D25A87D510034D40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553CE72E25A87D510034D40E /* Build configuration list for PBXNativeTarget "iPadxTG-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553CE72F25A87D510034D40E /* Debug */,
+				553CE73025A87D510034D40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553CE73125A87D510034D40E /* Build configuration list for PBXNativeTarget "iPadxTG-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553CE73225A87D510034D40E /* Debug */,
+				553CE73325A87D510034D40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553CE73425A87D510034D40E /* Build configuration list for PBXNativeTarget "iPadxTG-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553CE73525A87D510034D40E /* Debug */,
+				553CE73625A87D510034D40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 553CE6FC25A87D4B0034D40E /* Project object */;
+}
