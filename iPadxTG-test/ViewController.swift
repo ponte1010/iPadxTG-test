@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     // AVSpeechSynthesizerのインスタンスを生成
     let synthesizer = AVSpeechSynthesizer()
     
+    var strTapPoints: String = ""
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         // タッチイベントを取得する
         let touch = touches.first
@@ -30,8 +32,21 @@ class ViewController: UIViewController {
         let strxTap:String = String(intxTap)
         let stryTap:String = String(intyTap)
         
-        let strTapPoints = "エックス" + strxTap + "ワイ" + stryTap
-        
+        strTapPoints = "エックス" + strxTap + "ワイ" + stryTap
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let recognizer = UITapGestureRecognizer(target: self, action: #selector(handleGesture(_:)))
+        recognizer.numberOfTouchesRequired = 1
+        recognizer.numberOfTapsRequired = 2
+        view.addGestureRecognizer(recognizer)
+    }
+    
+    @IBAction func handleGesture(_ gesture: UITapGestureRecognizer) {
+        guard gesture.state == .ended else {
+            return
+        }
         // 確認用
         print(strTapPoints)
         
@@ -39,10 +54,6 @@ class ViewController: UIViewController {
         let voice = AVSpeechSynthesisVoice.init(language: "ja-JP")
         utterance.voice = voice
         synthesizer.speak(utterance)
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
     }
     
     
